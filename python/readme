@@ -1,56 +1,46 @@
-Estas son las librerías necesarias para que el script funcione correctamente. Puedes instalarlas ejecutando los siguientes comandos en la terminal (CMD) antes de ejecutar parqueadero.py:
+#  Cómo ejecutar `parqueadero.py` en la terminal (CMD)
 
-sh
-pip install pillow
-pip install tk
-¡Entendido! Aquí está el README actualizado para reflejar la estructura de carpetas:
+## 🔍 Introducción
+`parqueadero.py` es un programa escrito en Python. Para ejecutarlo correctamente, asegúrate de tener **Python instalado** en tu computadora y usa la **línea de comandos (CMD)**.
 
-```markdown
-# Cómo ejecutar `parqueadero.py` en la terminal (CMD)
+## 📂 Estructura de Carpetas
+El script debe estar dentro de una carpeta llamada `proyecto`, y dentro de esta debe existir otra carpeta llamada `images`. La estructura debe verse así:
 
-## Introducción
-`parqueadero.py` es un programa escrito en Python. Para ejecutarlo, debes asegurarte de que Python esté instalado en tu computadora y utilizar la terminal de comandos (CMD).
-
-## Estructura de Carpetas
-El archivo `parqueadero.py` debe estar dentro de una carpeta llamada `proyecto`, y dentro de `proyecto` debe haber otra carpeta llamada `images`. Asegúrate de que la estructura sea la siguiente:
-
-```
 proyecto/
 │── parqueadero.py
 │── images/
-```
 
-## Pasos para ejecutar el programa:
+## 🚀 Pasos para ejecutar el programa:
 
-1. **Verifica que Python esté instalado**  
-   - Abre CMD (`Windows + R`, escribe `cmd` y presiona `Enter`).
+### 1️⃣ Verificar instalación de Python  
+   - Abre **CMD** (`Windows + R`, escribe `cmd` y presiona `Enter`).
    - Escribe `python --version` y presiona `Enter`.  
-   - Si ves una versión de Python (`Python 3.x.x`), estás listo para continuar. Si aparece un error, descarga e instala Python desde [python.org](https://www.python.org/downloads/).
+   - Si ves una versión de Python (`Python 3.x.x`), estás listo. Si no, descárgalo desde [python.org](https://www.python.org/downloads/).
 
-2. **Ubica la carpeta `proyecto`**  
-   - Busca la carpeta `proyecto` en tu explorador de archivos y copia su ruta completa (ejemplo: `C:\Users\TuUsuario\Documents\proyecto`).
+### 2️⃣ Ubicar la carpeta `proyecto`  
+   - Encuentra la carpeta `proyecto` en el **Explorador de Archivos** y copia su ruta completa (Ejemplo: `C:\Users\TuUsuario\Documents\proyecto`).
 
-3. **Abrir la terminal en la ubicación de `proyecto`**  
-   - Si ya estás en CMD, usa el comando `cd` para moverte a la carpeta `proyecto`:  
-     ```sh
+### 3️⃣ Abrir la terminal en la carpeta `proyecto`  
+   - Si estás en CMD, usa el siguiente comando para moverte a la carpeta:  
      cd C:\Users\TuUsuario\Documents\proyecto
-     ```
-   - También puedes abrir CMD directamente en la carpeta:
-     - Abre `proyecto` en el explorador de archivos.
+   - También puedes abrir **CMD** directamente en la carpeta:
+     - Abre `proyecto` en **Explorador de Archivos**.
      - Escribe `cmd` en la barra de direcciones y presiona `Enter`.
 
-4. **Ejecutar el script**  
-   - Una vez en la carpeta correcta, escribe el siguiente comando y presiona `Enter`:
-     ```sh
-     python parqueadero.py
-     ```
+### 4️⃣ Instalar las dependencias  
+   Antes de ejecutar el script, instala las siguientes librerías con `pip`:
+   pip install pillow  
+   pip install tk  
+   ⚠️ Si `pip` da error, actualízalo con:
+   python -m pip install --upgrade pip  
+
+### 5️⃣ Ejecutar el script  
+   - Una vez en la carpeta `proyecto`, ejecuta:
+     python parqueadero.py  
    - Si Python 3 está instalado pero el comando anterior no funciona, intenta:
-     ```sh
-     python3 parqueadero.py
-     ```
+     python3 parqueadero.py  
 
-## Notas:
-- La carpeta `images` debe existir dentro de `proyecto`, especialmente si el script la usa para guardar o cargar imágenes.
-- Si el programa usa librerías externas, instala las necesarias con `pip install nombredelalibreria`.
-
-¡Listo! Ahora `parqueadero.py` está en su lugar y puedes ejecutarlo sin problemas. 🚀 Si necesitas algún otro detalle, dime cómo más puedo ayudarte.
+## 📝 Notas:
+✅ La carpeta `images` **debe** existir dentro de `proyecto`, especialmente si el script usa imágenes.  
+✅ Si el programa requiere librerías adicionales, instálalas con `pip install nombredelalibreria`.  
+✅ Si tienes problemas, revisa la configuración de Python en tu sistema.  
