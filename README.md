@@ -1,4 +1,4 @@
-# Parcial3
+
 # Parcial - Corte 3
 
 Este repositorio contiene los dos proyectos desarrollados para el parcial del Corte 3. El objetivo fue aplicar habilidades de programación y transformar ideas en soluciones funcionales, cumpliendo con los requisitos base y añadiendo características adicionales para mejorar cada proyecto. [cite: 3]
